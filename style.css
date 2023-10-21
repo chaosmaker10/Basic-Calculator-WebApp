@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+*{
+    font-family: Tektur;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    padding: 2%;
+    margin-top: 20px;
+    color: azure;
+    size: 40cm;
+}
+body{
+    background-color:red;
+}
+#imp,#res{
+    text-align: center;
+}
+#end{
+    text-align: right;
+}

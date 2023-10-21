@@ -1,0 +1,49 @@
+<html>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <h1 id="h1">Calculator</h1>
+    <body>
+        <div id="imp">
+            <label for="no1">Number 1</label><br>
+            <input type="text" id="no1" value="10"><br>
+            <label for="no2">Number 2</label><br>
+            <input type="text" id="no2" value="20"><br>
+            <button onclick="add()">+</button>
+            <button onclick="sub1()">-</button>
+            <button onclick="di()">/</button>
+            <button onclick="mul()">*</button><br>
+            <!-- <input type="submit" value="Submit"><br> -->
+        <p id="res">Result</p>
+        </div>
+    </body>
+    <footer id="end">By Harikarthikeyan</footer>
+</html>
+<script>
+    var a=document.getElementById("no1")
+    var b=document.getElementById("no2")
+    var result=document.getElementById("res")
+    function add(){
+        var x=Number(a.value)
+        var y=Number(b.value)
+        var ad=x+y
+        res.textContent=ad
+    }
+    function sub1(){
+        var x=Number(a.value)
+        var y=Number(b.value)
+        var su=Math.abs(x-y)
+        res.textContent=su
+    }
+    function di(){
+        var x=Number(a.value)
+        var y=Number(b.value)
+        var d=x/y
+        res.textContent=d
+    }
+    function mul(){
+        var x=Number(a.value)
+        var y=Number(b.value)
+        var mu=x*y
+        res.textContent=mu
+    }
+</script>
